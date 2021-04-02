@@ -15,7 +15,11 @@ const arr = [1, 2, 3, 4, 5];
 //   return val + 5;
 // });
 
+function coolFunc(firstArg = 10, secondArg = "okayyyy"){
+  console.log(firstArg, secondArg);
+}
 
+coolFunc(10);
 
 
 
