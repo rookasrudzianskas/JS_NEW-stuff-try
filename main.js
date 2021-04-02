@@ -15,13 +15,18 @@ const arr = [1, 2, 3, 4, 5];
 //   return val + 5;
 // });
 
-function coolFunc(firstArg = 10, secondArg = "okayyyy"){
+// function coolFunc(firstArg = 10, secondArg = "okayyyy"){
+//   console.log(firstArg, secondArg);
+// }
+//
+// coolFunc(10);
+
+
+
+const arrowF = (firstArg = "wow", secondArg = "hello") => {
   console.log(firstArg, secondArg);
 }
 
-coolFunc(10);
-
-
-
+arrowF();
 
 
